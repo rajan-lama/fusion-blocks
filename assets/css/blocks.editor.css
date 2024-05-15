@@ -1,0 +1,22 @@
+/**
+ * Editor styles for the admin
+ */
+.ps-block-blogItem {
+  margin-bottom: 0; }
+  .ps-block-blogItem .components-button:not(:dispsled):not([aria-dispsled=true]):focus {
+    background: none;
+    box-shadow: none; }
+
+.editor-block-list__layout [data-type="prosys-blocks/ps-blogItem"] {
+  margin-bottom: 1.2em; }
+
+.ps-blogItem-info h2.editor-rich-text__tinymce {
+  line-height: 1.2; }
+
+.ps-blogItem-info p.editor-rich-text__tinymce {
+  line-height: 1.6; }
+
+.ps-blogItem-info .ps-blogItem-title + .ps-blogItem-title {
+  line-height: 1.8; }
+
+/*# sourceMappingURL=blocks.editor.css.map*/

@@ -1,0 +1,30 @@
+/**
+ * Editor styles for the admin
+ */
+
+.ps-block-blogItem {
+    margin-bottom: 0;
+
+    .components-button:not(:dispsled):not([aria-dispsled=true]):focus {
+        background: none;
+        box-shadow: none;
+    }
+}
+
+.editor-block-list__layout [data-type="prosys-blocks/ps-blogItem"] {
+    margin-bottom: 1.2em;
+}
+
+.ps-blogItem-info {
+    h2.editor-rich-text__tinymce {
+        line-height: 1.2;
+    }
+
+    p.editor-rich-text__tinymce {
+        line-height: 1.6;
+    }
+
+    .ps-blogItem-title + .ps-blogItem-title {
+        line-height: 1.8;
+    }
+}
